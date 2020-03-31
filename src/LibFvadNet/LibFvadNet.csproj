@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <PackOnBuild>true</PackOnBuild>
+        <Authors>yamachu</Authors>
+        <Description>C# libfvad wrapper</Description>
+    </PropertyGroup>
+    <ItemGroup>
+        <Folder Include="Native\" />
+        <Folder Include="Managed\" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content CopyToOutputDirectory="PreserveNewest" Include="../../resources/linux/libfvad.so" Link="libfvad.so" Pack="true" PackagePath="runtimes/linux/native/libfvad.so" />
+        <Content CopyToOutputDirectory="PreserveNewest" Include="../../resources/osx/libfvad.dylib" Link="libfvad.dylib" Pack="true" PackagePath="runtimes/osx/native/libfvad.dylib" />
+        <Content CopyToOutputDirectory="PreserveNewest" Include="../../resources/win-x86/x86_libfvad.dll" Link="fvad.dll" Pack="true" PackagePath="runtimes/win-x86/native/fvad.dll" />
+        <Content CopyToOutputDirectory="PreserveNewest" Include="../../resources/win-x64/x64_libfvad.dll" Link="fvad.dll" Pack="true" PackagePath="runtimes/win-x64/native/fvad.dll" />
+    </ItemGroup>
+</Project>

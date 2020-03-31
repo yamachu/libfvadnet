@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibFvadNet", "src\LibFvadNet\LibFvadNet.csproj", "{A6C17F49-8614-4D06-8CD8-84C60E8CF593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{1681E368-6E91-430E-90D5-9B886C18D260}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6C17F49-8614-4D06-8CD8-84C60E8CF593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C17F49-8614-4D06-8CD8-84C60E8CF593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C17F49-8614-4D06-8CD8-84C60E8CF593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C17F49-8614-4D06-8CD8-84C60E8CF593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1681E368-6E91-430E-90D5-9B886C18D260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1681E368-6E91-430E-90D5-9B886C18D260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1681E368-6E91-430E-90D5-9B886C18D260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1681E368-6E91-430E-90D5-9B886C18D260}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
